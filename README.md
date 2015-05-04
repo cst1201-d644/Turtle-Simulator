@@ -175,11 +175,11 @@ Below are detailed instructions for completing this lab. There are a lot of deta
 ## Grading
 
 This assignment will be graded out of 10 points:
-- [2pt] Your Bowtie class has a draw() method that draws a Bowtie
-- [1pt] You have created a new InitialDrawing class with a draw() method
-- [2pt] Your InitialDrawing class can draw your initials wth a plus sign
-- [1pt] You have created a new HouseDrawing class with a draw() method
-- [1pt] Your HouseDrawing class draws a picture of a house
+- [2pt] Your Bowtie class has a `draw()` method that draws a `Bowtie`
+- [1pt] You have created a new `InitialDrawing` class with a `draw()` method
+- [2pt] Your `InitialDrawing` class can draw your initials wth a plus sign
+- [1pt] You have created a new `HouseDrawing` class with a `draw()` method
+- [1pt] Your `HouseDrawing` class draws a picture of a house
 - [1pt] Your house drawing has a roof sloped at 45 degrees
 - [1pt] All classes have class comments (and author names!) filled in
 - [1pt] Good programming style -- including proper indentation is expected
