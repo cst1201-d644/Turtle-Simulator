@@ -52,7 +52,7 @@ Below are detailed instructions for completing this lab. There are a lot of deta
   Now notice how the class header `public class Bowtie` is followed by an open-curly brace `{` and a close-curly brace `}`. These curly braces group together related Java statements. It's saying that anything that goes inside these curly braces belong to the `Bowtie` class.
 
 1. We want to create a method called `draw()` for this `Bowtie` class. Take a look at the snippet of code I've provided for you below. Copy and paste all 9 lines (but delete the line numbers to the left) in between Bowtie's curly braces. Once you've done that, let's re-organize the code by clicking on "Source" > "Format". Let's now learn a little bit more about this code snippet:
-```java
+  ```java
   /**
    * (Fill in a brief bescription of what method does)
    */
@@ -61,13 +61,13 @@ Below are detailed instructions for completing this lab. There are a lot of deta
     //this is the *body* of the draw() method
     //implement the algorithm to draw a bowtie below
   }
-```
-- Lines 1-3 is a block comment that describes the method. Recall that comments are completely ignored by the Java compiler, so they only serve the purpose of informing people reading the code. Go ahead and fill in a brief sentence about what this method will perform when it is called.
-- Line 4 is the all-important method signature. Here's what it says:
-  - The `public` keyword makes the method visible to users.
-  - The `void` keyword means this method will not return any values.
-  - `draw()` is the method's name, followed by a list of parameters it inputs inside the parentheses. In this case, there are no parameters required.
-- Lines 5-8: Notice that we've begun another set of open- and close-curly braces. Now remember what they do: They group together related Java statements, but this time, in the context of the draw() method. The code that goes between the curlies is known as the **method's body**. This is where the draw() method's algorithm will go, instructing a turtle to draw a bowtie.
+  ```
+  - Lines 1-3 is a block comment that describes the method. Recall that comments are completely ignored by the Java compiler, so they only serve the purpose of informing people reading the code. Go ahead and fill in a brief sentence about what this method will perform when it is called.
+  - Line 4 is the all-important method signature. Here's what it says:
+    - The `public` keyword makes the method visible to users.
+    - The `void` keyword means this method will not return any values.
+    - `draw()` is the method's name, followed by a list of parameters it inputs inside the parentheses. In this case, there are no parameters required.
+  - Lines 5-8: Notice that we've begun another set of open- and close-curly braces. Now remember what they do: They group together related Java statements, but this time, in the context of the `draw()` method. The code that goes between the curlies is known as the **method's body**. This is where the draw() method's algorithm will go, instructing a turtle to draw a bowtie.
 
 1. We want the body of the void `draw()` method to run the algorithm we just executed. This means we need to translate the natural language algorithm we've been following to the Java programming language. To get a feel for the translation process, I've gotten things started for you by providing the code to create the head and getting it into position.
 
