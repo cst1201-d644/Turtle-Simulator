@@ -70,21 +70,21 @@ Below are detailed instructions for completing this lab. There are a lot of deta
   - Lines 5-8: Notice that we've begun another set of open- and close-curly braces. Now remember what they do: They group together related Java statements, but this time, in the context of the `draw()` method. The code that goes between the curlies is known as the **method's body**. This is where the draw() method's algorithm will go, instructing a turtle to draw a bowtie.
 
 1. We want the body of the void `draw()` method to run the algorithm we just executed. This means we need to translate the natural language algorithm we've been following to the Java programming language. To get a feel for the translation process, I've gotten things started for you by providing the code to create the head and getting it into position.
+  
+  | Algorithm in Natural Language	| Java Algorithm (Unfinished) |
+  | ----------------------------- | ----------------------------|
+  | 1. Create a Turtle object named myTurtle | `Turtle myTurtle = new Turtle();`|
+  | 1. Set myTurtle's pen color to "blue" | `myTurtle.setPenColor("blue");`|
+  | 1. Turn myTurtle left by 90 degrees | `myTurtle.left(90);`|
+  | 1. Move myTurtle forward by 300 | |
+  | 1. Turn myTurtle right by 135 degrees | |
+  | 1. Move myTurtle forward by 425 | |
+  | 1. Turn myTurtle left by 135 | |
+  | 1. Move myTurtle forward by 300 | |
+  | 1. Turn myTurtle left by 135 | |
+  | 1. Move myTurtle forward by 425 | |
 
-| Algorithm in Natural Language	| Java Algorithm (Unfinished) |
-| ----------------------------- | ----------------------------|
-1. Create a Turtle object named myTurtle | `Turtle myTurtle = new Turtle();`
-1. Set myTurtle's pen color to "blue" | `myTurtle.setPenColor("blue");`
-1. Turn myTurtle left by 90 degrees | `myTurtle.left(90);`
-1. Move myTurtle forward by 300 | 
-1. Turn myTurtle right by 135 degrees |
-1. Move myTurtle forward by 425 |
-1. Turn myTurtle left by 135 |
-1. Move myTurtle forward by 300 |
-1. Turn myTurtle left by 135 |
-1. Move myTurtle forward by 425 |
-
-**Your job** is to complete the remaining translation, and place the code you write directly within the `void draw()` method's **body**.
+  **Your job** is to complete the remaining translation, and place the code you write directly within the `void draw()` method's **body**.
 
 1. To help with the rest of the translation, recall the following Java syntax:
 - To call an instance method, `method()`, on the object referred to as `objectName`, we write:
