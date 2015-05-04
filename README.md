@@ -49,11 +49,11 @@ Wow, that was tedious to do by hand, and I can't imagine how long it would take 
 
 Open the `Bowtie` class. As you can see, besides the class header and a few comments, not much else has been provided to you.
 
-First, fill in your names next to @author and type in today's date next to @version in the block comment at the top of the file.
+First, fill in your names next to `@author` in the block comment at the top of the file.
 
-Now notice how the class header `public class Bowtie` is followed by an open-curly brace { and a close-curly brace }. These curly braces group together related Java statements. It's saying that anything that goes inside these curly braces belong to the Bowtie class.
+Now notice how the class header `public class Bowtie` is followed by an open-curly brace `{` and a close-curly brace `}`. These curly braces group together related Java statements. It's saying that anything that goes inside these curly braces belong to the `Bowtie` class.
 
-We want to create a method called `draw()` for this `Bowtie` class. Take a look at the snippet of code I've provided for you below. Copy and paste all 9 lines (but delete the line numbers to the left) in between Bowtie's curly braces. Once you've done that, let's re-organize the code by clicking on "Source" > "Format". Let's now learn a little bit more about this code snippet.
+We want to create a method called `draw()` for this `Bowtie` class. Take a look at the snippet of code I've provided for you below. Copy and paste all 9 lines (but delete the line numbers to the left) in between Bowtie's curly braces. Once you've done that, let's re-organize the code by clicking on "Source" > "Format". Let's now learn a little bit more about this code snippet:
 
 ```java
   /**
@@ -77,63 +77,62 @@ Lines 5-8: Notice that we've begun another set of open- and close-curly braces. 
 
 We want the body of the void draw() method to run the algorithm we just executed. This means we need to translate the natural language algorithm we've been following to the Java programming language. To get a feel for the translation process, we've gotten things started for you by providing the code to create the head and getting it into position.
 
-Algorithm in Natural Language	Java Algorithm (Unfinished)
-1. Create a Turtle object named myTurtle
-1. Set myTurtle's pen color to "blue"
-1. Turn myTurtle left by 90 degrees
-1. Move myTurtle forward by 300
-1. Turn myTurtle right by 135 degrees
-1. Move myTurtle forward by 425
-1. Turn myTurtle left by 135
-1. Move myTurtle forward by 300
-1. Turn myTurtle left by 135
-1. Move myTurtle forward by 425
- 
-`Turtle myTurtle = new Turtle();`
-`myTurtle.setPenColor("blue");`
-`myTurtle.left(90);`
+| Algorithm in Natural Language	| Java Algorithm (Unfinished) |
+| ----------------------------- | ----------------------------|
+1. Create a Turtle object named myTurtle | `Turtle myTurtle = new Turtle();`
+1. Set myTurtle's pen color to "blue" | `myTurtle.setPenColor("blue");`
+1. Turn myTurtle left by 90 degrees | `myTurtle.left(90);`
+1. Move myTurtle forward by 300 | 
+1. Turn myTurtle right by 135 degrees |
+1. Move myTurtle forward by 425 |
+1. Turn myTurtle left by 135 |
+1. Move myTurtle forward by 300 |
+1. Turn myTurtle left by 135 |
+1. Move myTurtle forward by 425 |
 
-Your job is to complete the remaining translation, and place the code you write directly within the void draw() method's body.
+Your job is to complete the remaining translation, and place the code you write directly within the void `draw()` method's body.
 
 To help with the rest of the translation, recall the following Java syntax:
 
-To call an instance method, method(), on the object referred to as objectName, we write:
-`objectName.method(val1, val2, ...);`
-where val1, val2, ... are the values for the method's parameters. Note that the parameter list may be empty.
+To call an instance method, `method()`, on the object referred to as `objectName`, we write:
+```java
+objectName.method(val1, val2, ...);
+```
+where `val1, val2, ...` are the values for the method's parameters (i.e., arguments). Note that the parameter list may be empty.
 
 Finally, notice that there is a semi-colon at the end of each statement you write.
 So that you know how to call the rest of the methods, below is a list of methods' signatures that the turtle supports.
 ```java
 /**
- * move the turtle forward the specified distance (in pixels)
+ * Move the turtle forward the specified distance (in pixels)
  */
 public void forward(double distance)
 
 /**
- * lowers the pen, so that the turtle will draw when it moves.
+ * Lowers the pen, so that the turtle will draw when it moves.
  * Note that the pen is down by default.
  */
 public void penDown()
 
 /**
- * raises the pen, so that the turtle won't draw when it moves
+ * Raises the pen, so that the turtle won't draw when it moves
  */
 public void penUp()
 
 /**
- * sets the color of the turtle's pen. Possible values are:
+ * Sets the color of the turtle's pen. Possible values are:
  * "blue", "cyan", "gray", "magenta", "orange", "pink", "red",
  * "yellow", and "black"
  */
 public void setPenColor(String color)
 
 /**
- * rotates the turtle to the left the specified number of degrees
+ * Rotates the turtle to the left the specified number of degrees
  */
 public void left(int angle)
 
 /**
- * rotates the turtle to the right the specified number of degrees
+ * Rotates the turtle to the right the specified number of degrees
  */
 public void right(int angle)
 ```
