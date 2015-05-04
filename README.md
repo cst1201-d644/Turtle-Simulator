@@ -19,31 +19,31 @@ This assignment should be completed in pairs.
 
 ## Instructions
 
-Below are detailed instructions for completing this lab. There are a lot of details; be sure and read the instructions carefully, and let us know if anything is unclear!
+Below are detailed instructions for completing this lab. There are a lot of details; be sure and read the instructions carefully, and let me know if anything is unclear!
 
 ### Part 1: Drawing a Simple Bowtie
 
 Clone the repository from GitHub in NetBeans.
 
-After you open this project, instantiate a new Turtle object. Recall to do this, you right-click on the Turtle class and choose new Turtle(). Once it is created, you should get a new window with a turtle appearing near the canvas' bottom right-hand corner, shown below.
+After you open this project, create a new class called `Simulator` and add a `main` method. In the method, instantiate a new `Turtle` object. Recall to do this, you simply call `new Turtle()`. Once it is created, you should get a new window with a turtle appearing near the canvas' bottom right-hand corner, shown below.
+
+![New Turtle](http://cs.pugetsound.edu/~dchiu/CS161/lab2/figures/turtle_blank.png)
+
+Play with the Turtle object's methods from the workbench to get familiar with all its methods. For instance, you can tell the turtle to move forward with the `forward()` method, and you can tell it to turn with the `right()` and `left()` methods. If you don't want the turtle to draw a line when it moves, use the `penUp()` method to raise the pen (and remember to use `penDown()` to put it down again).
+
+Now let's draw something by following the instructions below:
 
 
-Play with the Turtle object's methods from the workbench to get familiar with all its methods. For instance, you can tell the turtle to move forward with the forward() method, and you can tell it to turn with the right() and left() methods. If you don't want the turtle to draw a line when it moves, use the penUp() method to raise the pen (and remember to use penDown() to put it down again).
-
-Once you've become familiarized with the method menus, close the drawing window. This should also remove the Turtle object from the BlueJ workbench.
-
-Now let's draw something by following the instructions below.
-
-  1 Create a Turtle object named myTurtle
-  2 Set myTurtle's pen color to "blue"
-  3 Turn myTurtle left by 90 degrees
-  4 Move myTurtle forward by 300
-  5 Turn myTurtle right by 135 degrees
-  6 Move myTurtle forward by 425
-  7 Turn myTurtle left by 135
-  8 Move myTurtle forward by 300
-  9 Turn myTurtle left by 135
- 10 Move myTurtle forward by 425
+1. Create a Turtle object named `myTurtle`
+1. Set `myTurtle`'s pen color to "blue"
+1. Turn `myTurtle` left by 90 degrees
+1. Move `myTurtle` forward by 300
+1. Turn `myTurtle` right by 135 degrees
+1. Move `myTurtle` forward by 425
+1. Turn `myTurtle` left by 135
+1. Move `myTurtle` forward by 300
+1. Turn `myTurtle` left by 135
+1. Move `myTurtle` forward by 425
 
 Wow, that was tedious to do by hand, and I can't imagine how long it would take us to draw something more sophisticated than a bowtie! The good news is that we can program the computer to do all that work for us. In this section, we'll run you through how it's done.
 
