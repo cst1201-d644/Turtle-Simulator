@@ -87,52 +87,52 @@ Below are detailed instructions for completing this lab. There are a lot of deta
   **Your job** is to complete the remaining translation, and place the code you write directly within the `void draw()` method's **body**.
 
 1. To help with the rest of the translation, recall the following Java syntax:
-- To call an instance method, `method()`, on the object referred to as `objectName`, we write:
-```java
-objectName.method(val1, val2, ...);
-```
-where `val1, val2, ...` are the values for the method's parameters (i.e., arguments). Note that the parameter list may be empty.
-- Finally, notice that there is a semi-colon at the end of each statement you write.
+  - To call an instance method, `method()`, on the object referred to as `objectName`, we write:
+    ```java
+    objectName.method(val1, val2, ...);
+    ```
+  where `val1, val2, ...` are the values for the method's parameters (i.e., arguments). Note that the parameter list may be empty.
+  - Finally, notice that there is a semi-colon at the end of each statement you write.
 
-So that you know how to call the rest of the methods, below is a list of methods' signatures that the turtle supports:
-```java
-/**
- * Move the turtle forward the specified distance (in pixels)
- */
-public void forward(double distance)
-
-/**
- * Lowers the pen, so that the turtle will draw when it moves.
- * Note that the pen is down by default.
- */
-public void penDown()
-
-/**
- * Raises the pen, so that the turtle won't draw when it moves
- */
-public void penUp()
-
-/**
- * Sets the color of the turtle's pen. Possible values are:
- * "blue", "cyan", "gray", "magenta", "orange", "pink", "red",
- * "yellow", and "black"
- */
-public void setPenColor(String color)
-
-/**
- * Rotates the turtle to the left the specified number of degrees
- */
-public void left(int angle)
-
-/**
- * Rotates the turtle to the right the specified number of degrees
- */
-public void right(int angle)
-```
+  So that you know how to call the rest of the methods, below is a list of methods' signatures that the turtle supports:
+  ```java
+  /**
+   * Move the turtle forward the specified distance (in pixels)
+   */
+  public void forward(double distance)
+  
+  /**
+   * Lowers the pen, so that the turtle will draw when it moves.
+   * Note that the pen is down by default.
+   */
+  public void penDown()
+  
+  /**
+   * Raises the pen, so that the turtle won't draw when it moves
+   */
+  public void penUp()
+  
+  /**
+   * Sets the color of the turtle's pen. Possible values are:
+   * "blue", "cyan", "gray", "magenta", "orange", "pink", "red",
+   * "yellow", and "black"
+   */
+  public void setPenColor(String color)
+  
+  /**
+   * Rotates the turtle to the left the specified number of degrees
+   */
+  public void left(int angle)
+  
+  /**
+   * Rotates the turtle to the right the specified number of degrees
+   */
+  public void right(int angle)
+  ```
 
 1. Helpful hint! Try writing only a few method calls at a time, and then compile and test your method. Get used to this "write a little; test it; write a little more" workflow---it will make your life much easier in the future.
 
-After void `draw()` has been implemented, compile the project again from the Project window. If you cannot get it to compile, then it's probably something minor you mistyped. Let me know if this happens, and I'll help you out. After compiling, instantiate a `Bowtie` object, and call void `draw()`. This time, the drawing should automatically appear.
+  After void `draw()` has been implemented, compile the project again from the Project window. If you cannot get it to compile, then it's probably something minor you mistyped. Let me know if this happens, and I'll help you out. After compiling, instantiate a `Bowtie` object, and call void `draw()`. This time, the drawing should automatically appear.
 
 ### Part 2: Your Initials
 
