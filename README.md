@@ -43,16 +43,15 @@ Below are detailed instructions for completing this lab. There are a lot of deta
   1. Turn `myTurtle` left by 135
   1. Move `myTurtle` forward by 425
 
-Wow, that was tedious to do by hand, and I can't imagine how long it would take us to draw something more sophisticated than a bowtie! The good news is that we can program the computer to do all that work for us. In this section, we'll run you through how it's done.
+1. Wow, that was tedious to do by hand, and I can't imagine how long it would take us to draw something more sophisticated than a bowtie! The good news is that we can program the computer to do all that work for us. In this section, we'll run you through how it's done.
 
 Open the `Bowtie` class. As you can see, besides the class header and a few comments, not much else has been provided to you.
 
-First, fill in your names next to `@author` in the block comment at the top of the file.
+1. First, fill in your names next to `@author` in the block comment at the top of the file.
 
 Now notice how the class header `public class Bowtie` is followed by an open-curly brace `{` and a close-curly brace `}`. These curly braces group together related Java statements. It's saying that anything that goes inside these curly braces belong to the `Bowtie` class.
 
-We want to create a method called `draw()` for this `Bowtie` class. Take a look at the snippet of code I've provided for you below. Copy and paste all 9 lines (but delete the line numbers to the left) in between Bowtie's curly braces. Once you've done that, let's re-organize the code by clicking on "Source" > "Format". Let's now learn a little bit more about this code snippet:
-
+1. We want to create a method called `draw()` for this `Bowtie` class. Take a look at the snippet of code I've provided for you below. Copy and paste all 9 lines (but delete the line numbers to the left) in between Bowtie's curly braces. Once you've done that, let's re-organize the code by clicking on "Source" > "Format". Let's now learn a little bit more about this code snippet:
 ```java
   /**
    * (Fill in a brief bescription of what method does)
@@ -63,17 +62,14 @@ We want to create a method called `draw()` for this `Bowtie` class. Take a look 
     //implement the algorithm to draw a bowtie below
   }
 ```
-  
-Lines 1-3 is a block comment that describes the method. Recall that comments are completely ignored by the Java compiler, so they only serve the purpose of informing people reading the code. Go ahead and fill in a brief sentence about what this method will perform when it is called.
+- Lines 1-3 is a block comment that describes the method. Recall that comments are completely ignored by the Java compiler, so they only serve the purpose of informing people reading the code. Go ahead and fill in a brief sentence about what this method will perform when it is called.
+- Line 4 is the all-important method signature. Here's what it says:
+  - The `public` keyword makes the method visible to users.
+  - The `void` keyword means this method will not return any values.
+  - `draw()` is the method's name, followed by a list of parameters it inputs inside the parentheses. In this case, there are no parameters required.
+- Lines 5-8: Notice that we've begun another set of open- and close-curly braces. Now remember what they do: They group together related Java statements, but this time, in the context of the draw() method. The code that goes between the curlies is known as the **method's body**. This is where the draw() method's algorithm will go, instructing a turtle to draw a bowtie.
 
-Line 4 is the all-important method signature. Here's what it says:
-- The public keyword makes the method visible to users.
-- The void keyword means this method will not return any values.
-- `draw()` is the method's name, followed by a list of parameters it inputs inside the parentheses. In this case, there are no parameters required.
-
-Lines 5-8: Notice that we've begun another set of open- and close-curly braces. Now remember what they do: They group together related Java statements, but this time, in the context of the draw() method. The code that goes between the curlies is known as the method's body. This is where the draw() method's algorithm will go, instructing a turtle to draw a bowtie.
-
-We want the body of the void draw() method to run the algorithm we just executed. This means we need to translate the natural language algorithm we've been following to the Java programming language. To get a feel for the translation process, we've gotten things started for you by providing the code to create the head and getting it into position.
+1. We want the body of the void `draw()` method to run the algorithm we just executed. This means we need to translate the natural language algorithm we've been following to the Java programming language. To get a feel for the translation process, I've gotten things started for you by providing the code to create the head and getting it into position.
 
 | Algorithm in Natural Language	| Java Algorithm (Unfinished) |
 | ----------------------------- | ----------------------------|
@@ -88,18 +84,17 @@ We want the body of the void draw() method to run the algorithm we just executed
 1. Turn myTurtle left by 135 |
 1. Move myTurtle forward by 425 |
 
-Your job is to complete the remaining translation, and place the code you write directly within the void `draw()` method's body.
+**Your job** is to complete the remaining translation, and place the code you write directly within the `void draw()` method's **body**.
 
-To help with the rest of the translation, recall the following Java syntax:
-
-To call an instance method, `method()`, on the object referred to as `objectName`, we write:
+1. To help with the rest of the translation, recall the following Java syntax:
+- To call an instance method, `method()`, on the object referred to as `objectName`, we write:
 ```java
 objectName.method(val1, val2, ...);
 ```
 where `val1, val2, ...` are the values for the method's parameters (i.e., arguments). Note that the parameter list may be empty.
+- Finally, notice that there is a semi-colon at the end of each statement you write.
 
-Finally, notice that there is a semi-colon at the end of each statement you write.
-So that you know how to call the rest of the methods, below is a list of methods' signatures that the turtle supports.
+So that you know how to call the rest of the methods, below is a list of methods' signatures that the turtle supports:
 ```java
 /**
  * Move the turtle forward the specified distance (in pixels)
@@ -134,7 +129,8 @@ public void left(int angle)
  */
 public void right(int angle)
 ```
-Helpful hint! Try writing only a few method calls at a time, and then compile and test your method. Get used to this "write a little; test it; write a little more" workflow---it will make your life much easier in the future.
+
+1. Helpful hint! Try writing only a few method calls at a time, and then compile and test your method. Get used to this "write a little; test it; write a little more" workflow---it will make your life much easier in the future.
 
 After void `draw()` has been implemented, compile the project again from the Project window. If you cannot get it to compile, then it's probably something minor you mistyped. Let me know if this happens, and I'll help you out. After compiling, instantiate a `Bowtie` object, and call void `draw()`. This time, the drawing should automatically appear.
 
