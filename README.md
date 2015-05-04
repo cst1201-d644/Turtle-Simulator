@@ -47,63 +47,63 @@ Now let's draw something by following the instructions below:
 
 Wow, that was tedious to do by hand, and I can't imagine how long it would take us to draw something more sophisticated than a bowtie! The good news is that we can program the computer to do all that work for us. In this section, we'll run you through how it's done.
 
-Go back to the BlueJ project window, and create a Bowtie object in the workbench. When you bring up its methods-menu, you'll notice that it doesn't have any! Removing it seems to be your only option, so do so.
-
-Now double-click on the Bowtie class. This is going to open up the source code for that class. As you can see, besides the class header and a few comments, not much else has been provided to you (sweet, thanks David).
+Open the `Bowtie` class. As you can see, besides the class header and a few comments, not much else has been provided to you.
 
 First, fill in your names next to @author and type in today's date next to @version in the block comment at the top of the file.
 
-Now notice how the class header public class Bowtie is followed by an open-curly brace { and a close-curly brace }. These curly braces group together related Java statements. It's saying that anything that goes inside these curly braces belong to the Bowtie class.
+Now notice how the class header `public class Bowtie` is followed by an open-curly brace { and a close-curly brace }. These curly braces group together related Java statements. It's saying that anything that goes inside these curly braces belong to the Bowtie class.
 
-We want to create a method called draw() for this Bowtie class. Take a look at the snippet of code I've provided for you below. Copy and paste all 9 lines (but delete the line numbers to the left) in between Bowtie's curly braces. Once you've done that, let's re-organize the code by clicking on "Edit" > "Auto-Layout". Let's now learn a little bit more about this code snippet.
+We want to create a method called `draw()` for this `Bowtie` class. Take a look at the snippet of code I've provided for you below. Copy and paste all 9 lines (but delete the line numbers to the left) in between Bowtie's curly braces. Once you've done that, let's re-organize the code by clicking on "Source" > "Format". Let's now learn a little bit more about this code snippet.
 
-  1 /**
-  2  * (Fill in a brief bescription of what method does)
-  3  */
-  4 public void draw()
-  5 {
-  6         //this is the *body* of the draw() method
-  7         //implement the algorithm to draw a bowtie below
-  8 
-  9 }
+```java
+  /**
+   * (Fill in a brief bescription of what method does)
+   */
+  public void draw()
+  {
+    //this is the *body* of the draw() method
+    //implement the algorithm to draw a bowtie below
+  }
+```
+  
 Lines 1-3 is a block comment that describes the method. Recall that comments are completely ignored by the Java compiler, so they only serve the purpose of informing people reading the code. Go ahead and fill in a brief sentence about what this method will perform when it is called.
+
 Line 4 is the all-important method signature. Here's what it says:
-The public keyword makes the method visible to users.
-The void keyword means this method will not return any values.
-draw() is the method's name, followed by a list of parameters it inputs inside the parentheses. In this case, there are no parameters required.
+- The public keyword makes the method visible to users.
+- The void keyword means this method will not return any values.
+- `draw()` is the method's name, followed by a list of parameters it inputs inside the parentheses. In this case, there are no parameters required.
+
 Lines 5-8: Notice that we've begun another set of open- and close-curly braces. Now remember what they do: They group together related Java statements, but this time, in the context of the draw() method. The code that goes between the curlies is known as the method's body. This is where the draw() method's algorithm will go, instructing a turtle to draw a bowtie.
+
 We want the body of the void draw() method to run the algorithm we just executed. This means we need to translate the natural language algorithm we've been following to the Java programming language. To get a feel for the translation process, we've gotten things started for you by providing the code to create the head and getting it into position.
 
 Algorithm in Natural Language	Java Algorithm (Unfinished)
-Create a Turtle object named myTurtle
-Set myTurtle's pen color to "blue"
-Turn myTurtle left by 90 degrees
-Move myTurtle forward by 300
-Turn myTurtle right by 135 degrees
-Move myTurtle forward by 425
-Turn myTurtle left by 135
-Move myTurtle forward by 300
-Turn myTurtle left by 135
-Move myTurtle forward by 425
-Turtle myTurtle = new Turtle();
-myTurtle.setPenColor("blue");
-myTurtle.left(90);
-
-
-
-
-
-
+1. Create a Turtle object named myTurtle
+1. Set myTurtle's pen color to "blue"
+1. Turn myTurtle left by 90 degrees
+1. Move myTurtle forward by 300
+1. Turn myTurtle right by 135 degrees
+1. Move myTurtle forward by 425
+1. Turn myTurtle left by 135
+1. Move myTurtle forward by 300
+1. Turn myTurtle left by 135
+1. Move myTurtle forward by 425
+ 
+`Turtle myTurtle = new Turtle();`
+`myTurtle.setPenColor("blue");`
+`myTurtle.left(90);`
 
 Your job is to complete the remaining translation, and place the code you write directly within the void draw() method's body.
+
 To help with the rest of the translation, recall the following Java syntax:
+
 To call an instance method, method(), on the object referred to as objectName, we write:
-objectName.method(val1, val2, ...);
+`objectName.method(val1, val2, ...);`
 where val1, val2, ... are the values for the method's parameters. Note that the parameter list may be empty.
 
 Finally, notice that there is a semi-colon at the end of each statement you write.
 So that you know how to call the rest of the methods, below is a list of methods' signatures that the turtle supports.
-
+```java
 /**
  * move the turtle forward the specified distance (in pixels)
  */
@@ -136,18 +136,22 @@ public void left(int angle)
  * rotates the turtle to the right the specified number of degrees
  */
 public void right(int angle)
-
+```
 Helpful hint! Try writing only a few method calls at a time, and then compile and test your method. Get used to this "write a little; test it; write a little more" workflow---it will make your life much easier in the future.
 
 After void draw() has been implemented, close the source code editor, and compile the project again from the Project window. If you cannot get it to compile, then it's probably something minor you mis-typed. Let us know if this happens, and we'll help you out. After compiling, instantiate a Bowtie object, and call void draw(). This time, the drawing should automatically appear, and you've just completed your first method in Java!
 
-Part 2: Your Initials
+### Part 2: Your Initials
 
 You should program the turtle to draw out the first initials of you and your partner. So if Joel and David were working together, we'd program the turtle to draw J + D (Yes, you must draw the plus sign).
+
 You need to create a new class, called InitialDrawing. Delete everything but the class header, and create a new draw() method. You can refer back to the Bowtie class for help with syntax.
+
 Inside this method, you should program your turtle using the same tricks and techniques you worked on to draw that bowtie. Be sure to write a bit of your code, then compile and run your program. Using the write/compile/debug cycle!
+
 You are welcome to get creative with this--using different colors, decorations, etc.
-Part 3: House Drawing
+
+###Part 3: House Drawing
 
 Your objective is to create a new class, called HouseDrawing. This class should contain a single draw() method to create and boss around a turtle to draw a house. Upon successful implementation, your drawing will look similar to the following:
 
