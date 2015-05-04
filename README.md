@@ -73,16 +73,16 @@ Below are detailed instructions for completing this lab. There are a lot of deta
   
   | Algorithm in Natural Language	| Java Algorithm (Unfinished) |
   | ----------------------------- | ----------------------------|
-  | 1. Create a Turtle object named myTurtle | `Turtle myTurtle = new Turtle();`|
-  | 1. Set myTurtle's pen color to "blue" | `myTurtle.setPenColor("blue");`|
-  | 1. Turn myTurtle left by 90 degrees | `myTurtle.left(90);`|
-  | 1. Move myTurtle forward by 300 | |
-  | 1. Turn myTurtle right by 135 degrees | |
-  | 1. Move myTurtle forward by 425 | |
-  | 1. Turn myTurtle left by 135 | |
-  | 1. Move myTurtle forward by 300 | |
-  | 1. Turn myTurtle left by 135 | |
-  | 1. Move myTurtle forward by 425 | |
+  | Create a Turtle object named myTurtle | `Turtle myTurtle = new Turtle();`|
+  | Set myTurtle's pen color to "blue" | `myTurtle.setPenColor("blue");`|
+  | Turn myTurtle left by 90 degrees | `myTurtle.left(90);`|
+  | Move myTurtle forward by 300 | |
+  | Turn myTurtle right by 135 degrees | |
+  | Move myTurtle forward by 425 | |
+  | Turn myTurtle left by 135 | |
+  | Move myTurtle forward by 300 | |
+  | Turn myTurtle left by 135 | |
+  | Move myTurtle forward by 425 | |
 
   **Your job** is to complete the remaining translation, and place the code you write directly within the `void draw()` method's **body**.
 
