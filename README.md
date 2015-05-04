@@ -25,9 +25,9 @@ Below are detailed instructions for completing this lab. There are a lot of deta
 
 1. Clone this [repository](https://github.com/cst1201-d644/Turtle-Simulator) from GitHub in NetBeans.
 
-1. After you open this project, create a new class called `Simulator` and add a `main` method. In the method, instantiate a new `Turtle` object. Recall to do this, you simply call `new Turtle()`. Once it is created, you should get a new window with a turtle appearing near the canvas' bottom right-hand corner, shown below.
+1. After you open this project, create a new class called `Simulator` and add a `main` method. In the method, instantiate a new `Turtle` object. Recall to do this, you simply call `new Turtle()`. Once it is created, you should get a new window with a turtle appearing near the canvas' bottom right-hand corner, shown below:
 
-![New Turtle](http://cs.pugetsound.edu/~dchiu/CS161/lab2/figures/turtle_blank.png)
+  ![New Turtle](http://cs.pugetsound.edu/~dchiu/CS161/lab2/figures/turtle_blank.png)
 
 1. Play with the Turtle object's methods from the workbench to get familiar with all its methods. For instance, you can tell the turtle to move forward with the `forward()` method, and you can tell it to turn with the `right()` and `left()` methods. If you don't want the turtle to draw a line when it moves, use the `penUp()` method to raise the pen (and remember to use `penDown()` to put it down again).
 
@@ -45,11 +45,11 @@ Below are detailed instructions for completing this lab. There are a lot of deta
 
 1. Wow, that was tedious to do by hand, and I can't imagine how long it would take us to draw something more sophisticated than a bowtie! The good news is that we can program the computer to do all that work for us. In this section, we'll run you through how it's done.
 
-Open the `Bowtie` class. As you can see, besides the class header and a few comments, not much else has been provided to you.
+  Open the `Bowtie` class. As you can see, besides the class header and a few comments, not much else has been provided to you.
 
 1. First, fill in your names next to `@author` in the block comment at the top of the file.
 
-Now notice how the class header `public class Bowtie` is followed by an open-curly brace `{` and a close-curly brace `}`. These curly braces group together related Java statements. It's saying that anything that goes inside these curly braces belong to the `Bowtie` class.
+  Now notice how the class header `public class Bowtie` is followed by an open-curly brace `{` and a close-curly brace `}`. These curly braces group together related Java statements. It's saying that anything that goes inside these curly braces belong to the `Bowtie` class.
 
 1. We want to create a method called `draw()` for this `Bowtie` class. Take a look at the snippet of code I've provided for you below. Copy and paste all 9 lines (but delete the line numbers to the left) in between Bowtie's curly braces. Once you've done that, let's re-organize the code by clicking on "Source" > "Format". Let's now learn a little bit more about this code snippet:
 ```java
