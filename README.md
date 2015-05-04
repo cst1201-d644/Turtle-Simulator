@@ -172,37 +172,45 @@ Below are detailed instructions for completing this lab. There are a lot of deta
     myTurtle.forward(roofDistance);
     ```
 
-Grading
+## Grading
 
-This assignment will be graded out of 10 points.
+This assignment will be graded out of 10 points:
+- [2pt] Your Bowtie class has a draw() method that draws a Bowtie
+- [1pt] You have created a new InitialDrawing class with a draw() method
+- [2pt] Your InitialDrawing class can draw your initials wth a plus sign
+- [1pt] You have created a new HouseDrawing class with a draw() method
+- [1pt] Your HouseDrawing class draws a picture of a house
+- [1pt] Your house drawing has a roof sloped at 45 degrees
+- [1pt] All classes have class comments (and author names!) filled in
+- [1pt] Good programming style -- including proper indentation is expected
 
-[2pt] Your Bowtie class has a draw() method that draws a Bowtie
-[1pt] You have created a new InitialDrawing class with a draw() method
-[2pt] Your InitialDrawing class can draw your initials wth a plus sign
-[1pt] You have created a new HouseDrawing class with a draw() method
-[1pt] Your HouseDrawing class draws a picture of a house
-[1pt] Your house drawing has a roof sloped at 45 degrees
-[1pt] All classes have class comments (and author names!) filled in
-[1pt] Good programming style -- including proper indentation is expected
-Submitting Your Lab
+## Submission
 
-After you have completed the lab, use the following to submit your work on moodle.
-Exit BlueJ, and navigate to the project folder you extracted in the beginning of this lab.
+1. To start, [**fork** the repository][forking].
+1. [**Clone**][ref-clone] the repository to your computer.
+1. Modify the files and [**commit**][ref-commit] changes to complete your solution.
+1. [**Push**][ref-push]/sync the changes up to GitHub.
+1. [Create a **pull request**][pull-request] on the original repository to turn in the assignment.
+4. Submit, in Blackboard, your GitHub username.
 
-Right-click on the project folder, then:
+## Credits
 
-If using Linux, select Compress...
-If using Windows, select Send to then Zip file
-If using MacOS, select Compress ... items
-This step takes your selected files and generates a .zip file.
-Right-click on your .zip file and select "Rename". Rename the file to LastName1_LastName2_Lab2.zip, where the LastNames are the respective last names of the authors.
+Adapted for use from a previous assignment by Joel Ross and David Chiu.
 
-Now navigate to our course on Moodle. You should see the Lab 2 Dropbox. Click on this link, and you should be able to drag your project folder right into the submission box. Click "Save Changes". You may submit as often as you'd like before the deadline. I will grade the most recent copy.
+## Lab Attendance Policies
 
-Credits
+Attendance is required for lab. Because you work in pairs, your partner is counting on you to be present. I do not require you to use the lab machines if you and your partner would prefer using your laptops.
 
-Adapted for use from a previous assignment by Joel Ross.
-Lab Attendance Policies
-
-Attendance is required for lab. Because you work in pairs, your partner is counting on you to be present. I do not require you to use the lab machines if you and your partner would prefer using your laptops. You can download and install BlueJ free from http://www.bluej.org/. (Get the version including the Java SDK).
-
+<!-- Links -->
+[create-repo]: https://help.github.com/articles/create-a-repo
+[private-repos]: /guide/private_repos
+[add-to-team-action]: https://github.com/education/teachers_pet/#giving-others-access
+[teachers-pet]: https://github.com/education/teachers_pet
+[help-add-to-team]: https://help.github.com/articles/adding-organization-members-to-a-team
+[help-access-control]: https://help.github.com/articles/what-are-the-different-access-permissions#organization-accounts
+[forking]: https://guides.github.com/activities/forking/
+[ref-clone]: http://gitref.org/creating/#clone
+[ref-commit]: http://gitref.org/basic/#commit
+[ref-push]: http://gitref.org/remotes/#push
+[pull-request]: https://help.github.com/articles/creating-a-pull-request
+[raw]: https://raw.githubusercontent.com/education/guide/master/docs/forks.md
