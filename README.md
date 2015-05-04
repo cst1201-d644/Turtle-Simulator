@@ -19,7 +19,7 @@ This assignment should be completed in pairs.
 
 ## Instructions
 
-Below are detailed instructions for completing this lab. For this early assignment, we'll walk you through most of the steps. There are a lot of details; be sure and read the instructions carefully, and let us know if anything is unclear!
+Below are detailed instructions for completing this lab. There are a lot of details; be sure and read the instructions carefully, and let us know if anything is unclear!
 
 ### Part 1: Drawing a Simple Bowtie
 
@@ -198,10 +198,4 @@ Adapted for use from a previous assignment by Joel Ross.
 Lab Attendance Policies
 
 Attendance is required for lab. Because you work in pairs, your partner is counting on you to be present. I do not require you to use the lab machines if you and your partner would prefer using your laptops. You can download and install BlueJ free from http://www.bluej.org/. (Get the version including the Java SDK).
-
-
-	  	Department of Mathematics and Computer Science
-University of Puget Sound
-1500 N. Warner St
-Tacoma, WA 98416
 
