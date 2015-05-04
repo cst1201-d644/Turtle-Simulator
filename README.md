@@ -23,27 +23,25 @@ Below are detailed instructions for completing this lab. There are a lot of deta
 
 ### Part 1: Drawing a Simple Bowtie
 
-Clone the repository from GitHub in NetBeans.
+1. Clone this [repository](https://github.com/cst1201-d644/Turtle-Simulator) from GitHub in NetBeans.
 
-After you open this project, create a new class called `Simulator` and add a `main` method. In the method, instantiate a new `Turtle` object. Recall to do this, you simply call `new Turtle()`. Once it is created, you should get a new window with a turtle appearing near the canvas' bottom right-hand corner, shown below.
+1. After you open this project, create a new class called `Simulator` and add a `main` method. In the method, instantiate a new `Turtle` object. Recall to do this, you simply call `new Turtle()`. Once it is created, you should get a new window with a turtle appearing near the canvas' bottom right-hand corner, shown below.
 
 ![New Turtle](http://cs.pugetsound.edu/~dchiu/CS161/lab2/figures/turtle_blank.png)
 
-Play with the Turtle object's methods from the workbench to get familiar with all its methods. For instance, you can tell the turtle to move forward with the `forward()` method, and you can tell it to turn with the `right()` and `left()` methods. If you don't want the turtle to draw a line when it moves, use the `penUp()` method to raise the pen (and remember to use `penDown()` to put it down again).
+1. Play with the Turtle object's methods from the workbench to get familiar with all its methods. For instance, you can tell the turtle to move forward with the `forward()` method, and you can tell it to turn with the `right()` and `left()` methods. If you don't want the turtle to draw a line when it moves, use the `penUp()` method to raise the pen (and remember to use `penDown()` to put it down again).
 
-Now let's draw something by following the instructions below:
-
-
-1. Create a Turtle object named `myTurtle`
-1. Set `myTurtle`'s pen color to "blue"
-1. Turn `myTurtle` left by 90 degrees
-1. Move `myTurtle` forward by 300
-1. Turn `myTurtle` right by 135 degrees
-1. Move `myTurtle` forward by 425
-1. Turn `myTurtle` left by 135
-1. Move `myTurtle` forward by 300
-1. Turn `myTurtle` left by 135
-1. Move `myTurtle` forward by 425
+1. Now let's draw something by following the instructions below:
+  1. Create a Turtle object named `myTurtle`
+  1. Set `myTurtle`'s pen color to "blue"
+  1. Turn `myTurtle` left by 90 degrees
+  1. Move `myTurtle` forward by 300
+  1. Turn `myTurtle` right by 135 degrees
+  1. Move `myTurtle` forward by 425
+  1. Turn `myTurtle` left by 135
+  1. Move `myTurtle` forward by 300
+  1. Turn `myTurtle` left by 135
+  1. Move `myTurtle` forward by 425
 
 Wow, that was tedious to do by hand, and I can't imagine how long it would take us to draw something more sophisticated than a bowtie! The good news is that we can program the computer to do all that work for us. In this section, we'll run you through how it's done.
 
@@ -138,7 +136,7 @@ public void right(int angle)
 ```
 Helpful hint! Try writing only a few method calls at a time, and then compile and test your method. Get used to this "write a little; test it; write a little more" workflow---it will make your life much easier in the future.
 
-After void draw() has been implemented, close the source code editor, and compile the project again from the Project window. If you cannot get it to compile, then it's probably something minor you mis-typed. Let us know if this happens, and we'll help you out. After compiling, instantiate a Bowtie object, and call void draw(). This time, the drawing should automatically appear, and you've just completed your first method in Java!
+After void `draw()` has been implemented, compile the project again from the Project window. If you cannot get it to compile, then it's probably something minor you mistyped. Let me know if this happens, and I'll help you out. After compiling, instantiate a `Bowtie` object, and call void `draw()`. This time, the drawing should automatically appear.
 
 ### Part 2: Your Initials
 
