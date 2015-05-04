@@ -136,31 +136,41 @@ Below are detailed instructions for completing this lab. There are a lot of deta
 
 ### Part 2: Your Initials
 
-You should program the turtle to draw out the first initials of you and your partner. So if Joel and David were working together, we'd program the turtle to draw J + D (Yes, you must draw the plus sign).
+1. You should program the turtle to draw out the first initials of you and your partner. So if Joel and David were working together, we'd program the turtle to draw `J + D` (Yes, you must draw the plus sign).
 
-You need to create a new class, called InitialDrawing. Delete everything but the class header, and create a new draw() method. You can refer back to the Bowtie class for help with syntax.
+1. You need to create a new class, called `InitialDrawing`. Delete everything but the class header, and create a new `draw()` method. You can refer back to the `Bowtie` class for help with syntax.
 
-Inside this method, you should program your turtle using the same tricks and techniques you worked on to draw that bowtie. Be sure to write a bit of your code, then compile and run your program. Using the write/compile/debug cycle!
+1. Inside this method, you should program your turtle using the same tricks and techniques you worked on to draw that bowtie. Be sure to write a bit of your code, then compile and run your program. Using the write/compile/debug cycle!
 
-You are welcome to get creative with this--using different colors, decorations, etc.
+1. You are welcome to get creative with this--using different colors, decorations, etc.
 
-###Part 3: House Drawing
+### Part 3: House Drawing
 
-Your objective is to create a new class, called HouseDrawing. This class should contain a single draw() method to create and boss around a turtle to draw a house. Upon successful implementation, your drawing will look similar to the following:
+1. Your objective is to create a new class, called `HouseDrawing`. This class should contain a single `draw()` method to create and boss around a turtle to draw a house. Upon successful implementation, your drawing will look similar to the following:
 
-Drawing the roof: The pitch (or angle) of the roof should be 45 degrees, with the tallest point being lined up to the center of the house. Turning the turtle in the right directions should not be a problem, but calculating the distance that needs to be drawn can present some challenges. If you go too far or stop too short (see below), the pitch will be skewed to one side:
+  ![House](http://cs.pugetsound.edu/~dchiu/CS161/lab2/figures/Lab2-house.png)
+
+1. **Drawing the roof**: The pitch (or angle) of the roof should be 45 degrees, with the tallest point being lined up to the center of the house. Turning the turtle in the right directions should not be a problem, but calculating the distance that needs to be drawn can present some challenges. If you go too far or stop too short (see below), the pitch will be skewed to one side:
+
+    ![Oops1](http://cs.pugetsound.edu/~dchiu/CS161/lab2/figures/Lab2-oops1.png) ![Oops2](http://cs.pugetsound.edu/~dchiu/CS161/lab2/figures/Lab2-oops2.png)
   
-The trick to solving this problem is to observe that the side of the roof is the hypoteneuse, or the longest side (C), of a right triangle, where the other two sides (A) and (B) have equal length:
+  The trick to solving this problem is to observe that the side of the roof is the hypoteneuse, or the longest side (C), of a right triangle, **where the other two sides (A) and (B) have equal length**:
 
+    ![Triangle](http://cs.pugetsound.edu/~dchiu/CS161/lab2/figures/Lab2-triangle.png)
 
-Luckily, we know the Pythagorean Theorem. Can you use it to solve for the hypotenuse? You will need to get the square root of a number, and Java provides this useful method:
-
-Math.sqrt(???)
-where ??? is some mathematical expression. Finally, you can plug the equation to find the hypotenuse right into the forward() method's distance parameter as follows:
-myTurtle.forward(Math.sqrt(???));
-Alternatively, you might prefer to store the roof's distance in a local variable for better code readability.
-double roofDistance = Math.sqrt(???);  //why double?
-myTurtle.forward(roofDistance);
+  Luckily, we know the [Pythagorean Theorem](http://www.mathsisfun.com/pythagoras.html). Can you use it to solve for the hypotenuse? You will need to get the square root of a number, and Java provides this useful method:
+    ```java
+    Math.sqrt(???)
+    ```
+  where ??? is some mathematical expression. Finally, you can plug the equation to find the hypotenuse right into the forward() method's distance parameter as follows:
+    ```java
+    myTurtle.forward(Math.sqrt(???));
+    ```
+  Alternatively, you might prefer to store the roof's distance in a **local variable** for better code readability.
+    ```java
+    double roofDistance = Math.sqrt(???);  //why double?
+    myTurtle.forward(roofDistance);
+    ```
 
 Grading
 
