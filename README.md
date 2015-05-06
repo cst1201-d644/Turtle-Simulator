@@ -23,7 +23,9 @@ Below are detailed instructions for completing this lab. There are a lot of deta
 
 ### Part 1: Drawing a Simple Bowtie
 
-1. Clone this [repository](https://github.com/cst1201-d644/Turtle-Simulator) from GitHub in NetBeans.
+1. To start, [**fork** the repository][forking].
+
+1. [**Clone**][ref-clone] the repository to your computer.
 
 1. After you open this project, create a new class called `Simulator` and add a `main` method. In the method, instantiate a new `Turtle` object. Recall to do this, you simply call `new Turtle()`. Once it is created, you should get a new window with a turtle appearing near the canvas' bottom right-hand corner, shown below:
 
@@ -186,12 +188,10 @@ This assignment will be graded out of 10 points:
 
 ## Submission
 
-1. To start, [**fork** the repository][forking].
-1. [**Clone**][ref-clone] the repository to your computer.
 1. Modify the files and [**commit**][ref-commit] changes to complete your solution.
 1. [**Push**][ref-push]/sync the changes up to GitHub.
 1. [Create a **pull request**][pull-request] on the original repository to turn in the assignment.
-4. Submit, in Blackboard, your GitHub username.
+4. Submit, in Blackboard, the GitHub username corresponding to the pull request.
 
 ## Credits
 
