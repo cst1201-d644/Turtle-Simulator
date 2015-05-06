@@ -5,7 +5,7 @@ import acm.program.*;
 import java.awt.*;
 
 /**
- * A class representing a Papert-style Turtle that can be moved about a canvas.
+ * A class representing a Paper-style Turtle that can be moved about a canvas.
  * This class acts as an initializer and wrapper for the JTF Turtle, so that it
  * can be controlled through the BlueJ interface
  *
