@@ -2,7 +2,6 @@ package cst1201;
 
 import acm.graphics.*;
 import acm.program.*;
-import java.awt.*;
 
 /**
  * A class representing a Papert-style Turtle that can be moved about a canvas.
@@ -115,6 +114,10 @@ public class Turtle {
             return Color.YELLOW;
         }
         return Color.BLACK; //return black otherwise
+    }
+
+    void setPenColor(Color BLUE) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     /**
