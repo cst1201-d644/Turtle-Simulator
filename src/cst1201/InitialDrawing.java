@@ -7,11 +7,12 @@ package cst1201;
 
 /**
  *
- * @author Winnie
+ * @author Winnie Wu & Kenny Tsang
  */
 public class InitialDrawing {
     public void draw(){
         Turtle myTurtle = new Turtle();
+        myTurtle.setPenColor("magenta");
         myTurtle.left(90);
         myTurtle.penUp();
         myTurtle.forward(300);
@@ -25,6 +26,7 @@ public class InitialDrawing {
         myTurtle.left(155);
         myTurtle.forward(300);
         
+        myTurtle.setPenColor("black");
         myTurtle.right(90);
         myTurtle.penUp();
         myTurtle.forward(40);
@@ -42,6 +44,7 @@ public class InitialDrawing {
         myTurtle.penDown();
         myTurtle.forward(70);
         
+        myTurtle.setPenColor("blue");
         myTurtle.left(90);
         myTurtle.penUp();
         myTurtle.forward(95);
@@ -50,6 +53,18 @@ public class InitialDrawing {
         myTurtle.right(180);
         myTurtle.penDown();
         myTurtle.forward(300);
+        myTurtle.left(180);
+        myTurtle.penUp();
+        myTurtle.forward(150);
+        myTurtle.right(45);
+        myTurtle.penDown();
+        myTurtle.forward(190);
+        myTurtle.left(180);
+        myTurtle.penUp();
+        myTurtle.forward(190);
+        myTurtle.left(90); 
+        myTurtle.penDown();
+        myTurtle.forward(190);
         
     }
 }

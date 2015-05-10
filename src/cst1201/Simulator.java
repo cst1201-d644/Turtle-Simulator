@@ -8,11 +8,11 @@ package cst1201;
 
 /**
  *
- * @author class
+ * @author Winnie Wu & Kenny Tsang
  */
 public class Simulator {
     public static void main(String[] args) {
-        Bowtie myBowtie = new Bowtie();
-        myBowtie.draw();
+        InitialDrawing myTurtle = new InitialDrawing();
+        myTurtle.draw();
     }    
 }
