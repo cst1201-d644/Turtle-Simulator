@@ -2,7 +2,7 @@ package cst1201;
 
 import acm.graphics.*;
 import acm.program.*;
-import java.awt.*;
+import java.awt.Color;
 
 /**
  * A class representing a Papert-style Turtle that can be moved about a canvas.
@@ -38,6 +38,8 @@ public class Turtle {
 
     /**
      * Moves the turtle forward the specified distance (in pixels)
+     *
+     * @param distance
      */
     public void forward(double distance) {
         turtle.forward(distance);
@@ -60,6 +62,8 @@ public class Turtle {
 
     /**
      * Turns the turtle to the left the specified number of degrees
+     *
+     * @param angle
      */
     public void left(int angle) {
         turtle.left(angle);
@@ -67,6 +71,8 @@ public class Turtle {
 
     /**
      * Turns the turtle to the right the specified number of degrees
+     *
+     * @param angle
      */
     public void right(int angle) {
         turtle.right(angle);
@@ -75,6 +81,8 @@ public class Turtle {
     /**
      * Sets the color of the turtle's pen. Possible values are: "blue", "cyan",
      * "gray", "magenta", "orange", "pink", "red", "yellow", and "black"
+     *
+     * @param color
      */
     public void setPenColor(String color) {
         turtle.setColor(this.getColorFromString(color));
@@ -115,6 +123,10 @@ public class Turtle {
             return Color.YELLOW;
         }
         return Color.BLACK; //return black otherwise
+    }
+
+    void setPenColor(Color BLUE) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
 
     /**
