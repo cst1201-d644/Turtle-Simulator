@@ -1,7 +1,7 @@
 package cst1201;
 
 /**
- * A class representing a Bowtie drawn by a Turtle object.
+ * A class representing a bowtie drawn by a Turtle object.
  *
  * @author Winnie Wu & Kenny Tsang
  */

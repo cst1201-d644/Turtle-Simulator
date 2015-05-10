@@ -1,15 +1,14 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package cst1201;
 
 /**
+ * A class representing our initials drawn by a turtle object.
  *
  * @author Winnie Wu & Kenny Tsang
  */
 public class InitialDrawing {
+    /**
+     * This method will draw our initials.
+     */
     public void draw(){
         Turtle myTurtle = new Turtle();
         myTurtle.setPenColor("magenta");
