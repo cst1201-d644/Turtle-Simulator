@@ -8,7 +8,7 @@ package cst1201;
 public class Bowtie {
 
     /**
-     * This method will draw a bowtie. 
+     * This method will draw a bowtie.
      */
     public void draw() {
         Turtle myTurtle = new Turtle();
@@ -20,7 +20,7 @@ public class Bowtie {
         myTurtle.left(135);
         myTurtle.forward(300);
         myTurtle.left(135);
-        myTurtle.forward(425);      
+        myTurtle.forward(425);
     }
 
 }

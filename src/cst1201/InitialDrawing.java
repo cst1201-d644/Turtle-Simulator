@@ -1,15 +1,16 @@
 package cst1201;
 
 /**
- * A class representing our initials drawn by a turtle object.
+ * A class representing our initials with a plus sign drawn by a turtle object.
  *
  * @author Winnie Wu & Kenny Tsang
  */
 public class InitialDrawing {
+
     /**
-     * This method will draw our initials.
+     * This method will draw our initials with a plus sign.
      */
-    public void draw(){
+    public void draw() {
         Turtle myTurtle = new Turtle();
         myTurtle.setPenColor("magenta");
         myTurtle.left(90);
@@ -24,7 +25,7 @@ public class InitialDrawing {
         myTurtle.forward(260);
         myTurtle.left(155);
         myTurtle.forward(300);
-        
+
         myTurtle.setPenColor("black");
         myTurtle.right(90);
         myTurtle.penUp();
@@ -42,7 +43,7 @@ public class InitialDrawing {
         myTurtle.right(180);
         myTurtle.penDown();
         myTurtle.forward(70);
-        
+
         myTurtle.setPenColor("blue");
         myTurtle.left(90);
         myTurtle.penUp();
@@ -61,9 +62,9 @@ public class InitialDrawing {
         myTurtle.left(180);
         myTurtle.penUp();
         myTurtle.forward(190);
-        myTurtle.left(90); 
+        myTurtle.left(90);
         myTurtle.penDown();
         myTurtle.forward(190);
-        
+
     }
 }
