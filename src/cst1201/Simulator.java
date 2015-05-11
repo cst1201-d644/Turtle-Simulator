@@ -13,13 +13,14 @@ public class Simulator {
     
     public static void main (String[] args) {
         
+        
         Turtle myTurtle = new Turtle ();
         
          myTurtle.setPenColor("blue");
          
          myTurtle.left(90);
          
-         myTurtle.forward(300);
+         myTurtle.forward(90);
          
          myTurtle.right(135);
          
