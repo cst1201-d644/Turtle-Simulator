@@ -12,8 +12,8 @@ package cst1201;
 public class Simulator {
 
     public static void main(String[] args) {
-        Bowtie myBowtie = new Bowtie();
-        myBowtie.draw();
+        InitialDrawing myInitial = new InitialDrawing();
+        myInitial.draw();
 
     }
 
