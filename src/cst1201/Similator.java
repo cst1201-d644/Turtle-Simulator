@@ -12,17 +12,9 @@ package cst1201;
 public class Similator {
 
     public static void main(String[] argsd) {
-        Turtle myTurtle = new Turtle();
-        myTurtle.setPenColor("blue");
-        myTurtle.left(90);
-        myTurtle.forward(300);
-        myTurtle.right(135);
-        myTurtle.forward(425);
-        myTurtle.left(135);
-        myTurtle.forward (300);
-        myTurtle.left(135);
-        myTurtle.forward(425);
-         
+        Bowtie myBowtie = new Bowtie();
+        myBowtie.draw();
+        
         
     }
 }
