@@ -10,7 +10,7 @@ package cst1201;
  */
 public class Simulator {
     public static void main(String[] agrs) {
-        InitialDrawing turtle=new InitialDrawing();
+        HouseDrawing turtle=new HouseDrawing();
         turtle.draw();
         
     }
