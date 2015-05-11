@@ -6,11 +6,11 @@ package cst1201;
 
 /**
  *
- * @author class
+ * @author Jianlang Lin,Ziying Guo
  */
 public class Simulator {
     public static void main(String[] agrs) {
-        Bowtie turtle=new Bowtie();
+        InitialDrawing turtle=new InitialDrawing();
         turtle.draw();
         
     }
