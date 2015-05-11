@@ -12,7 +12,7 @@ package cst1201;
 public class Simulator {
 
     public static void main(String[] args) {
-       Bowtie myBowTie = new Bowtie();
+       InitialDrawing myBowTie = new InitialDrawing();
        myBowTie.draw();
        
 
