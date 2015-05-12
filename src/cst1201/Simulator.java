@@ -14,9 +14,8 @@ import java.awt.Color;
  */
 public class Simulator {
     public static void main(String[] args) {
-        Bowtie myBowtie = new Bowtie();
-        myBowtie.draw();
-        
+        InitialDrawing myTurtle = new InitialDrawing();
+        myTurtle.draw();
         
        
         
