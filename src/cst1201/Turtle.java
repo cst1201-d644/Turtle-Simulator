@@ -11,7 +11,7 @@ import java.awt.*;
  *
  * Note that this class uses a singleton canvas (run as an apple
  *
- * @author Joel
+ * @author Razia and Jean
  * @version Aug 2013
  */
 public class Turtle {

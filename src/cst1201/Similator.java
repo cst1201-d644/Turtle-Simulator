@@ -5,16 +5,18 @@
  */
 package cst1201;
 
+import personalinfo.InitialDrawing;
+import personalinfo.HouseDrawing;
+
 /**
  *
- * @author class
+ * @ Razia And Jean
  */
 public class Similator {
 
     public static void main(String[] argsd) {
         Bowtie myBowtie = new Bowtie();
         myBowtie.draw();
-        
-        
+
     }
 }

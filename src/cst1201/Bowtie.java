@@ -3,12 +3,12 @@ package cst1201;
 /**
  * A class representing a Bowtie drawn by a Turtle object.
  *
- * @author (Razia Laboni)
+ * @author (Razia Laboni and jean)
  */
 public class Bowtie {
 
     /**
-     * (Fill in a brief description of what method does)
+     * (This method draws a bow tie following these particular directions.)
      */
     public void draw() {
         Turtle myTurtle = new Turtle();
