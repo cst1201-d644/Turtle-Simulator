@@ -3,18 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-
 package cst1201;
 
 /**
  *
- * @author class
+ * @author Goutam & Francisco
  */
 public class Simulatior {
+
     public static void main(String[] args) {
-   InitialDrawing myBowtie = new InitialDrawing();
-    myBowtie.draw();
-    
-    
+        HouseDrawing myTurtle = new HouseDrawing();
+        myTurtle.draw();
+
     }
 }

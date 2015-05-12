@@ -7,7 +7,7 @@ package cst1201;
 
 /**
  *
- * @author class
+ * @author Goutam & Francisco
  */
 public class InitialDrawing {
 
@@ -16,35 +16,61 @@ public class InitialDrawing {
         Turtle myTurtle = new Turtle();
 
         myTurtle.setPenColor("blue");
-
-        myTurtle.forward(50);
-
-        myTurtle.left(45);
-
-        myTurtle.forward(50);
-
-        myTurtle.left(45);
-
-        myTurtle.forward(50);
-
-        myTurtle.left(45);
-
-        myTurtle.forward(50);
-
-        myTurtle.right(45);
-
-        myTurtle.forward(50);
-
+        myTurtle.left(90);
+        myTurtle.forward(200);
+        myTurtle.right(90);
+        myTurtle.forward(100);
+        myTurtle.left(180);
         myTurtle.penUp();
-
-        myTurtle.forward(50);
-
+        myTurtle.forward(100);
+        myTurtle.left(90);
+        myTurtle.forward(200);
+        myTurtle.left(90);
         myTurtle.penDown();
 
-        
+        myTurtle.setPenColor("blue");
+        myTurtle.forward(100);
+        myTurtle.left(90);
+        myTurtle.forward(100);
+        myTurtle.right(90);
+        myTurtle.forward(50);
+        myTurtle.penUp();
+        myTurtle.forward(100);
+        myTurtle.penDown();
+
+        myTurtle.setPenColor("red");
+        myTurtle.forward(100);
+        myTurtle.penUp();
+        myTurtle.left(90);
+        myTurtle.forward(50);
+        myTurtle.left(90);
+        myTurtle.forward(50);
+        myTurtle.left(90);
+        myTurtle.penDown();
+
+        myTurtle.setPenColor("red");
+        myTurtle.forward(100);
+        myTurtle.penUp();
+        myTurtle.forward(50);
+        myTurtle.left(90);
+        myTurtle.forward(150);
+        myTurtle.left(90);
+        myTurtle.penDown();
+
+        myTurtle.setPenColor("blue");
+        myTurtle.forward(100);
+        myTurtle.right(90);
+        myTurtle.forward(100);
+        myTurtle.left(90);
+        myTurtle.penUp();
+        myTurtle.forward(100);
+        myTurtle.left(90);
+        myTurtle.penDown();
+
+        myTurtle.setPenColor("blue");
+        myTurtle.forward(100);
+        myTurtle.left(90);
+        myTurtle.forward(100);
 
     }
-
 }
-
-
