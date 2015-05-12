@@ -14,22 +14,11 @@ import java.awt.Color;
  */
 public class Simulator {
     public static void main(String[] args) {
-        Turtle myTurtle = new Turtle();
         Bowtie myBowtie = new Bowtie();
+        myBowtie.draw();
         
-        myTurtle.setPenColor("blue");
         
-        
-        myTurtle.left(90);
-        myTurtle.forward(300);
-        myTurtle.right(135);
-        myTurtle.forward(425);
-        myTurtle.left(135);
-        myTurtle.forward(300);
-        myTurtle.left(135);
-        myTurtle.forward(425);
-        myTurtle.penUp();
-        
+       
         
     }
 }
