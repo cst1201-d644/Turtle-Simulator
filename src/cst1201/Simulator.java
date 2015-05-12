@@ -6,15 +6,13 @@
 
 package cst1201;
 
-import java.awt.Color;
-
 /**
  *
- * @author class
+ * @author Evan Chin
  */
 public class Simulator {
     public static void main(String[] args) {
-        InitialDrawing myTurtle = new InitialDrawing();
+        HouseDrawing myTurtle = new HouseDrawing();
         myTurtle.draw();
         
        

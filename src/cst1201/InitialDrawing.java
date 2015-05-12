@@ -5,6 +5,9 @@ package cst1201;
  * @author Evan Chin
  */
 public class InitialDrawing {
+    /**
+     * This will draw my first two initials E + C.
+     */
     
     public void draw(){
         Turtle myTurtle = new Turtle();
