@@ -12,8 +12,8 @@ package cst1201;
 public class Similator {
 
     public static void main(String[] argsd) {
-        InitialDrawing myInitial = new InitialDrawing();
-        myInitial.draw();
+        HouseDrawing myHouse = new HouseDrawing();
+        myHouse.draw();
 
     }
 }
