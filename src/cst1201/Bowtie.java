@@ -9,7 +9,7 @@ public class Bowtie {
 
     /**
      * (Fill in a brief description of what method does)
-     */
+     */ //this method draws a blue bowtie
     public void draw() {
         //this is the *body* of the draw() method
         Turtle myTurtle = new Turtle();
