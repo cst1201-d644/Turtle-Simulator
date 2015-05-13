@@ -6,5 +6,10 @@ package cst1201;
  * @author (your name)
  */
 public class Bowtie {
+    
+    public void draw() {
+        Bowtie myBowtie = new Bowtie();
+	 myBowtie.draw();
+    }
 
 }
