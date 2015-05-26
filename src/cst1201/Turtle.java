@@ -117,6 +117,10 @@ public class Turtle {
         return Color.BLACK; //return black otherwise
     }
 
+    void backward(int i) {
+        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+    }
+
     /**
      * A private class that controls the window; basically just adds the turtle
      */
